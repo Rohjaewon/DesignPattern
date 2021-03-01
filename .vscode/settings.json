@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",           
+    "java.checkstyle.configuration": "${workspaceFolder}/codequality/checkstyle.xml", 
+    "java.checkstyle.version": "8.28",                                    
+    "emeraldwalk.runonsave": {                                            
+        "commands": [
+            {
+                "match": "\\.java$",
+                "cmd": "java -jar /usr/local/bin/google-java-format-1.9-all-deps.jar --replace ${file}"              
+            }
+        ]
+    }
+}
