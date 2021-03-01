@@ -1,4 +1,4 @@
-package StrategyPattern.Duck;
+package strategypattern.duck;
 
 public class FlyRocketPowered implements FlyBehavior {
   public void fly() {

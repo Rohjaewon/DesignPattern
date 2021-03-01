@@ -1,4 +1,4 @@
-package StrategyPattern.Duck;
+package strategypattern.duck;
 
 public class MuteQuack implements QuackBehavior {
   public void quack() {
